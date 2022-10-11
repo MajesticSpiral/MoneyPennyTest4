@@ -12,4 +12,5 @@ namespace MoneyPennyTest4.Models
 		public string Position { get; set; }
 		public string Skills { get; set; }
 	}
+
 }

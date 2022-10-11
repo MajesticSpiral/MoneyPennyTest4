@@ -125,7 +125,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Developers.cs" />
-    <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\ProductOwners.cs" />
     <Compile Include="Models\Testers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
