@@ -1,0 +1,25 @@
+﻿@model IEnumerable<MoneyPennyTest4.Models.ProductOwners>
+
+@{
+	ViewBag.Title = "Tester";
+}
+<h1>ProductOwners</h1>
+<table class="table table-bordered table-responsive table-hover">
+	<tr>
+		<th>Employee ID </th>
+		<th>EmployeeName</th>
+		<th>Position</th>
+		<th>Skills</th>
+	</tr>
+	@foreach (var d in Model)
+	{
+		<tr>
+			<td>@d.EmployeeID</td>
+			<td>@d.EmployeeName</td>
+			<td>@d.Position</td>
+			<td>@d.Skills</td>
+
+
+		</tr>
+	}
+</table>  
